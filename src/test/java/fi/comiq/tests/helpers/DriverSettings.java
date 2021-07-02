@@ -1,6 +1,6 @@
-package cloud.autotests.helpers;
+package fi.comiq.tests.helpers;
 
-import cloud.autotests.config.Project;
+import fi.comiq.tests.config.Project;
 import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;

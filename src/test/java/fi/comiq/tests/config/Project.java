@@ -1,4 +1,4 @@
-package cloud.autotests.config;
+package fi.comiq.tests.config;
 
 import org.aeonbits.owner.ConfigFactory;
 

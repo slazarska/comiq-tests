@@ -1,4 +1,4 @@
-package cloud.autotests.helpers;
+package fi.comiq.tests.helpers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

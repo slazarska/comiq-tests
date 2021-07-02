@@ -1,4 +1,4 @@
-package cloud.autotests.helpers;
+package fi.comiq.tests.helpers;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-import static cloud.autotests.helpers.Logging.LOGGER;
+import static fi.comiq.tests.helpers.Logging.LOGGER;
 import static com.codeborne.selenide.Selenide.sleep;
 
 public class AllureAttachments {
