@@ -8,8 +8,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-import static fi.comiq.tests.helpers.Logging.LOGGER;
 import static com.codeborne.selenide.Selenide.sleep;
+import static fi.comiq.tests.helpers.Logging.LOGGER;
 
 public class AllureAttachments {
 
@@ -52,6 +52,4 @@ public class AllureAttachments {
             Allure.addAttachment("Video", "video/mp4", videoInputStream, "mp4");
         }
     }
-
-
 }
