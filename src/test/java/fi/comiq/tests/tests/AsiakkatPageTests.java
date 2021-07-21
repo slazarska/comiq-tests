@@ -5,7 +5,7 @@ import fi.comiq.tests.pages.MainPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class AsiakkatPageTests {
+public class AsiakkatPageTests extends TestBase {
 
     MainPage mainPage = new MainPage();
     AsiakkaatPage asiakkatPage = new AsiakkaatPage();

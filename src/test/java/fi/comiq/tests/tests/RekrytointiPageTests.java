@@ -5,7 +5,7 @@ import fi.comiq.tests.pages.RekrytointiPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class RekrytointiPageTests {
+public class RekrytointiPageTests extends TestBase {
 
     MainPage mainPage = new MainPage();
     RekrytointiPage rekrytointiPage = new RekrytointiPage();
