@@ -38,7 +38,6 @@ public class MainPage {
 
     @Step("Check Main page console log have no errors")
     public void checkConsoleLogHaveNoErrors() {
-        // step("Console logs should not contain text 'SEVERE'", () -> {
         String consoleLogs = DriverUtils.getConsoleLogs();
         String errorText = "SEVERE";
         assertThat(consoleLogs).doesNotContain(errorText);

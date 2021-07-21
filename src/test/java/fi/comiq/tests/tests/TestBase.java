@@ -16,29 +16,29 @@ import org.junit.jupiter.api.extension.ExtendWith;
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
 
-//    @BeforeAll
-//    static void setUp() {
-//        Configuration.startMaximized = true;
-//    }
-
     @BeforeAll
     static void setUp() {
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        DriverSettings.configure();
+        Configuration.startMaximized = true;
     }
 
-    @AfterEach
-    public void addAttachments() {
-        String sessionId = DriverUtils.getSessionId();
-
-        AllureAttachments.addScreenshotAs("Last screenshot");
-        AllureAttachments.addPageSource();
-        AllureAttachments.addBrowserConsoleLogs();
-
-        Selenide.closeWebDriver();
-
-        if (Project.isVideoOn()) {
-            AllureAttachments.addVideo(sessionId);
-        }
-    }
+//    @BeforeAll
+//    static void setUp() {
+//        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+//        DriverSettings.configure();
+//    }
+//
+//    @AfterEach
+//    public void addAttachments() {
+//        String sessionId = DriverUtils.getSessionId();
+//
+//        AllureAttachments.addScreenshotAs("Last screenshot");
+//        AllureAttachments.addPageSource();
+//        AllureAttachments.addBrowserConsoleLogs();
+//
+//        Selenide.closeWebDriver();
+//
+//        if (Project.isVideoOn()) {
+//            AllureAttachments.addVideo(sessionId);
+//        }
+//    }
 }
