@@ -12,8 +12,7 @@ public class RekrytointiPage {
 
     SelenideElement rekrytointiLink = $(By.xpath("//span[contains(text(), \"Rekrytointi\")]"));
     SelenideElement vacanciesButton = $("a[id='vacancies']");
-    SelenideElement vacanciesLink = $("a[href='#rekry-vacancies']");
-    SelenideElement testAutomationExpertVacancy = $("#rekry-4");
+    SelenideElement vacanciesMenu = $("#rekry-menu");
 
     @Step("Open Main Page")
     public void openRekrytointiPage() {
@@ -22,17 +21,11 @@ public class RekrytointiPage {
 
     @Step("Check Rekrytointi Page is opened")
     public void checkRekrytointiPageIsOpened() {
-        vacanciesButton.shouldBe(visible);
+        vacanciesButton.scrollTo().shouldBe(visible);
     }
 
-    @Step("Open open vacancies")
-    public void openVacancies() {
-        vacanciesLink.click();
-    }
-
-    @Step("Open Test Automation Expert Vacancy")
-    public void openTestAutomationExpertVacancy() {
-        testAutomationExpertVacancy.shouldHave(text("Testausautomaation asiantuntija"));
-        testAutomationExpertVacancy.click();
+    @Step("check Test Automation Expert vacancy")
+    public void checkTestAutomationExpertVacancy() {
+        vacanciesMenu.scrollTo().shouldHave(text("Testausautomaation asiantuntija"));
     }
 }
