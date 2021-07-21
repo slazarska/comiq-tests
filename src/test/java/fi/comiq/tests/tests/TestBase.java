@@ -19,27 +19,22 @@ public class TestBase {
     @BeforeAll
     static void setUp() {
         Configuration.startMaximized = true;
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+        DriverSettings.configure();
     }
 
-//    @BeforeAll
-//    static void setUp() {
-//        Configuration.startMaximized = true;
-//        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-//        DriverSettings.configure();
-//    }
-//
-//    @AfterEach
-//    public void addAttachments() {
-//        String sessionId = DriverUtils.getSessionId();
-//
-//        AllureAttachments.addScreenshotAs("Last screenshot");
-//        AllureAttachments.addPageSource();
-//        AllureAttachments.addBrowserConsoleLogs();
-//
-//        Selenide.closeWebDriver();
-//
-//        if (Project.isVideoOn()) {
-//            AllureAttachments.addVideo(sessionId);
-//        }
-//    }
+    @AfterEach
+    public void addAttachments() {
+        String sessionId = DriverUtils.getSessionId();
+
+        AllureAttachments.addScreenshotAs("Last screenshot");
+        AllureAttachments.addPageSource();
+        AllureAttachments.addBrowserConsoleLogs();
+
+        Selenide.closeWebDriver();
+
+        if (Project.isVideoOn()) {
+            AllureAttachments.addVideo(sessionId);
+        }
+    }
 }
