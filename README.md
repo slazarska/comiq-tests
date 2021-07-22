@@ -28,9 +28,9 @@
 <br />
 <br />
 #### *Allure Report is connected to build reports:*
-![screenshot](images/allure.png)
-![screenshot](images/allure_tests.png)
-![screenshot](images/allure_atach.png)
+![screenshot](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/allure00.png)
+![screenshot](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/allure01.png)
+
 <br />
 <br />
 <br />
