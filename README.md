@@ -13,11 +13,11 @@
 - [X] - Check the list of vacancies has a vacancy for Automation Test Engineer
 
 ## Added video with tests run 
-
+![video](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/video/checkAQAtest.gif)
 <br><br>
 ## Screenshots
 #### *Selenoid is used to implement the Selenium protocol::*
-
+![image]()
 <br />
 <br />
 <br />
@@ -33,11 +33,12 @@
 <br />
 <br />
 #### *Allure TestOps was used as a Test Management system:*
+![image]()
 <br />
 <br />
 <br />
 #### *Telegram notification configured:*
-
+![screenshot]()
 Run tests with filled remote.properties:
 ```bash
 gradle clean test
