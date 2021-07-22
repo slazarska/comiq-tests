@@ -13,12 +13,11 @@
 - [X] - Check the list of vacancies has a vacancy for Automation Test Engineer
 
 ## Added video with tests run 
-![video](images/video_test.gif)
+
 <br><br>
 ## Screenshots
 #### *Selenoid is used to implement the Selenium protocol::*
 
-![screenshot](images/selenoid.png)
 <br />
 <br />
 <br />
@@ -30,21 +29,14 @@
 #### *Allure Report is connected to build reports:*
 ![screenshot](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/allure00.png)
 ![screenshot](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/allure01.png)
-
 <br />
 <br />
 <br />
 #### *Allure TestOps was used as a Test Management system:*
-![screenshot](images/allure_TO_resalts.png)
-![screenshot](images/allure_TO_cases.png)
-![screenshot](images/allure_TO_code.png)
-![screenshot](images/allure_TO_manual_vs_auto.png)
-![screenshot](images/allure_TO_jenkins.png)
 <br />
 <br />
 <br />
 #### *Telegram notification configured:*
-![screenshot](images/telegram_notif.png)
 
 Run tests with filled remote.properties:
 ```bash
