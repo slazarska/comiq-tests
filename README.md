@@ -17,12 +17,13 @@
 <br><br>
 ## Screenshots
 #### *Selenoid is used to implement the Selenium protocol::*
+
 ![screenshot](images/selenoid.png)
 <br />
 <br />
 <br />
 #### *Jenkins was used as a CI system*
-![screenshot](images/jenkins.png)
+![screenshot](img/jenkins.png)
 <br />
 <br />
 <br />
