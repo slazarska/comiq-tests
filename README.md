@@ -23,7 +23,7 @@
 <br />
 <br />
 #### *Jenkins was used as a CI system*
-![image](https://github.com/slazarska/comiq-tests/raw/master/img/jenkins.png)
+![image](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/jenkins.png)
 <br />
 <br />
 <br />
