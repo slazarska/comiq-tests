@@ -12,7 +12,7 @@ public class AsiakkatPageTests extends TestBase {
 
     @Test
     @DisplayName("Open Asiakkaat Page")
-    void openAsiakkaatPage() {
+    void openAsiakkaatPageTest() {
         mainPage.openMainPage();
         asiakkatPage.openAsiakkaatPage();
         asiakkatPage.checkAsiakkaatPageIsOpened();

@@ -12,15 +12,15 @@ public class RekrytointiPageTests extends TestBase {
 
     @Test
     @DisplayName("Open Rekrytointi Page")
-    void openRekrytointiPage() {
+    void openRekrytointiPageTest() {
         mainPage.openMainPage();
         rekrytointiPage.openRekrytointiPage();
         rekrytointiPage.checkRekrytointiPageIsOpened();
     }
 
     @Test
-    @DisplayName("Check the list of vacancies has AQA vacancy ")
-    void checkTheVacancyForAQA() {
+    @DisplayName("Check the list of vacancies has AQA vacancy")
+    void vacancyForAQATest() {
         mainPage.openMainPage();
         rekrytointiPage.openRekrytointiPage();
         rekrytointiPage.checkTestAutomationExpertVacancy();
