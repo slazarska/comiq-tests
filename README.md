@@ -20,10 +20,8 @@
 ![image]()
 <br />
 <br />
-<br />
 #### *Jenkins was used as a CI system*
 ![image](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/jenkins.png)
-<br />
 <br />
 <br />
 #### *Allure Report is connected to build reports:*
@@ -31,30 +29,30 @@
 ![image](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/allure01.png)
 <br />
 <br />
-<br />
 #### *Allure TestOps was used as a Test Management system:*
 ![image]()
 <br />
 <br />
-<br />
 #### *Telegram notification configured:*
 ![screenshot]()
-Run tests with filled remote.properties:
+<br />
+<br />
+Run tests with filled local.properties:
 ```bash
 gradle clean test
 ```
 
-Run tests with not filled remote.properties:
+Run tests with not filled local.properties:
 ```bash
 gradle clean -DremoteDriverUrl=https://user1:1234@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
-Serve report:
+Serve allure report:
 ```bash
 allure serve build/allure-results
 ```
 
-Thanks :pray:
+Thanks :pray:<br/>
 :purple_heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
 :purple_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
 
