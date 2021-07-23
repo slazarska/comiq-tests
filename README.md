@@ -1,12 +1,8 @@
 # Autotests for [comiq.fi](https://comiq.fi/)
 ## Technology Stack
-| GitHub | Java | Gradle | Junit5 | Selenide |
-|:----:|:----:|:------:|:------:|:--------:|
-| <img src="src/test/resources/img/GitHub.svg" width="40" height="40"> | <img src="img/Java.svg" width="40" height="40"> | <img src="img/Gradle.svg" width="40" height="40"> | <img src="img/JUnit5.svg" width="40" height="40"> | <img src="img/Selenide.svg" width="40" height="40"> |
-
-| Jenkins | Selenoid | Allure Report | Allure TestOps | 
-|:--------:|:-------------:|:---------:|:-------:|
-| <img src="img/Jenkins.svg" width="40" height="40"> | <img src="img/Selenoid.svg" width="40" height="40"> | <img src="img/Allure_Report.svg" width="40" height="40"> | <img src="img/Allure_EE.svg" width="40" height="40"> 
+| Java | Gradle | Junit5 | Selenide | Jenkins | Selenoid | Allure Report | Allure TestOps | 
+|:----:|:------:|:------:|:--------:|:-------:|:--------:|:---------------:|:--------------:|
+| <img src="src/test/resources/img/Java.svg" width="40" height="40"> | <img src="src/test/resources/img/Gradle.svg" width="40" height="40"> | <img src="src/test/resources/img/JUnit5.svg" width="40" height="40"> | <img src="src/test/resources/img/Selenide.svg" width="40" height="40"> | <img src="src/test/resources/img/Jenkins.svg" width="40" height="40"> | <img src="src/test/resources/img/Selenoid.svg" width="40" height="40"> | <img src="src/test/resources/img/Allure_Report.svg" width="40" height="40"> | <img src="src/test/resources/img/Allure_EE.svg" width="40" height="40"> | 
 
 ## Checks are implemented::
 
