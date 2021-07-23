@@ -2,7 +2,7 @@
 ## Technology Stack
 | GitHub | Java | Gradle | Junit5 | Selenide |
 |:----:|:----:|:------:|:------:|:--------:|
-| <img src="img/GitHub.svg" width="40" height="40"> | <img src="img/Java.svg" width="40" height="40"> | <img src="img/Gradle.svg" width="40" height="40"> | <img src="img/JUnit5.svg" width="40" height="40"> | <img src="img/Selenide.svg" width="40" height="40"> |
+| <img src="src/test/resources/img/GitHub.svg" width="40" height="40"> | <img src="img/Java.svg" width="40" height="40"> | <img src="img/Gradle.svg" width="40" height="40"> | <img src="img/JUnit5.svg" width="40" height="40"> | <img src="img/Selenide.svg" width="40" height="40"> |
 
 | Jenkins | Selenoid | Allure Report | Allure TestOps | 
 |:--------:|:-------------:|:---------:|:-------:|
