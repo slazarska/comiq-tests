@@ -1,6 +1,7 @@
 package fi.comiq.tests.tests;
 
 import fi.comiq.tests.pages.MainPage;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -23,6 +24,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
+    @Disabled
     @DisplayName("Page console log should have no errors")
     void consoleLogTest() {
         mainPage.openMainPage();
