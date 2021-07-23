@@ -17,7 +17,7 @@
 <br><br>
 ## Screenshots
 #### *Selenoid is used to implement the Selenium protocol::*
-![image]()
+![image](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/selenoid.png)
 <br />
 <br />
 #### *Jenkins was used as a CI system*
