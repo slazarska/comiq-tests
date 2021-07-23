@@ -23,13 +23,13 @@ public class MainPageTests extends TestBase {
         mainPage.checkTitle();
     }
 
-    @Test
-    @Disabled
-    @DisplayName("Page console log should have no errors")
-    void consoleLogTest() {
-        mainPage.openMainPage();
-        mainPage.checkConsoleLogHaveNoErrors();
-    }
+//    @Test
+//    @Disabled
+//    @DisplayName("Page console log should have no errors")
+//    void consoleLogTest() {
+//        mainPage.openMainPage();
+//        mainPage.checkConsoleLogHaveNoErrors();
+//    }
 
     @Test
     @DisplayName("Default language for main page should be finnish")
