@@ -34,7 +34,7 @@
 <br />
 <br />
 #### *Telegram notification configured:*
-![screenshot]()
+![image](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/bot.png)
 <br />
 <br />
 Run tests with filled local.properties:
