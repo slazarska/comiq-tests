@@ -30,7 +30,10 @@
 <br />
 <br />
 #### *Allure TestOps was used as a Test Management system:*
-![image]()
+![image](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/testops2.png)
+![image](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/testops0.png)
+![image](https://github.com/slazarska/comiq-tests/blob/master/src/test/resources/img/testops1.png)
+
 <br />
 <br />
 #### *Telegram notification configured:*
